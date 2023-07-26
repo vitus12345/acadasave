@@ -47,6 +47,11 @@
     background: #5000CA;
 }
 
+.card-body-item p{
+    text-align: center;
+    
+}
+
 .card-overall-section {
     display: flex;
     justify-content: space-between;
@@ -61,6 +66,7 @@
 
 .card-header-item, .card-body-item {
     padding: 10px 13px;
+    max-width: 97%;
 }
 
 @media screen and (max-width: 992px) {
@@ -79,4 +85,70 @@
     .svg-bottom {
         margin-top: -5px;
     }
+}
+
+@media screen and (min-width: 1000px){
+
+    .svg-top {
+        margin-bottom: -5px;
+    }
+
+    .svg-bottom {
+        margin-top: -5px;
+    }
+
+.herotexta h3 {
+    margin-top: 20%;
+}
+
+
+    
+}
+
+ .why{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.why p {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 150px;
+    color: #0a042be1;
+}
+
+
+
+
+.hero-img2{
+    margin-top:-15%;
+}
+
+.spectar2 h3{
+    margin-bottom: 40px;
+}
+
+
+
+
+.hero3-3{
+
+    margin-top: 15%;
+}
+
+.herotextb h3{
+margin-top: 40%;
+color: #0a042be1;
+margin-bottom: 30px;
+}
+
+
+.hero4-4{
+    margin-top: 15%;
+}
+
+.herotext h3{
+    color: #0a042be1;
+    margin-bottom: 30px;
 }
