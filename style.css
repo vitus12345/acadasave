@@ -80,6 +80,9 @@
     .svg-buttom{
         margin-top: -5px;
     }
+    .access{
+        flex-direction: row-reverse !important;
+    }
 }
 
 @media screen and (min-width: 1000px){
@@ -113,5 +116,53 @@
 
 .dedicated{
     padding-bottom: 15%;
+}
+
+.myfooter{
+    background: #2a0168;
+}
+
+.footme p{
+color: rgb(156, 161, 167);
+font-size: 12px;
+}
+
+.aboutus p{
+    color: rgb(156, 161, 167);
+font-size: 10px;
+}
+
+.aboutus h5{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.icons{
+    display: flex;
+}
+.ready{
+    background-color: rgb(97, 205, 224);
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 50px;
+
+}
+
+.readybnt{
+    background: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.boxes{
+    position: relative;
+}
+
+.markup{
+    
 }
 
