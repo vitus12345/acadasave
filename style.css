@@ -16,6 +16,17 @@
     font-size: 15px;
 }
 
+.btn-box {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    background: #fff;
+    color: #2a0168;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
 .btn-sign, .btn-hero {
     padding: 8px 22px;
     background: #5000CA;
@@ -80,9 +91,24 @@
     .svg-buttom{
         margin-top: -5px;
     }
-    .access{
-        flex-direction: row-reverse !important;
+   
+    br{
+        display: none;
     }
+
+    .box{
+        background-color: rgb(97, 205, 224);
+        color: #fff;
+        border-radius: 5px;
+        width: 0;
+        padding: 10px 80px;
+        margin: 0px;
+    }
+    .btn-hero{
+        width: 100%;
+    }
+
+
 }
 
 @media screen and (min-width: 1000px){
@@ -140,29 +166,55 @@ font-size: 10px;
 .icons{
     display: flex;
 }
-.ready{
-    background-color: rgb(97, 205, 224);
-    color: #fff;
-    border-radius: 5px;
-    margin: 0 50px;
-
-}
-
-.readybnt{
-    background: #fff;
-    border: none;
-    outline: none;
-    padding: 5px 20px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: 300;
-}
 
 .boxes{
     position: relative;
 }
+.box{
+    background-color: rgb(97, 205, 224);
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 140px;
+    padding: 10px 80px;
+    position:absolute;
+    width: 970px;
+    top: -33%;
+    left: 8px;
+}
+@media (max-width: 780px) {
+    body {
+        width: 100%;
+        overflow-x: hidden !important;
+    }
+    .box {
+        top: -23%;
+        left: -130px;
+        width: 95%;
+    }
+    .box-item {
+       flex-direction: column;
+    }
 
-.markup{
+    .footme{
+        margin-top: 25%;
+    }
+
+    .btn-box{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.box-item{
+    display: flex;
+    justify-content: space-between;
     
 }
+
+.box-item h5{
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+
 
