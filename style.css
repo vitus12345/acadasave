@@ -76,6 +76,88 @@
     padding: 10px 13px;
 }
 
+.package-item h3{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #2a0168;
+}
+
+.package-card{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+    
+}
+
+.student-card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+
+    
+}
+
+.student-card h5{
+    background: palevioletred;
+    color: #fff;
+    padding: 10px 0;
+    
+}
+
+.student-card p{
+    padding: 10px 40px;
+    color: gray;
+    
+}
+span{
+    color: #5000CA;
+    font-weight: 500;
+}
+
+
+.parent-card h5{
+    color: #fff;
+    padding: 10px 0;
+    background: blue;
+    
+}
+
+.parent-card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+
+}
+
+.parent-card p{
+    padding: 10px 40px;
+    color: gray;
+}
+
+.gold-card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+.gold-card h5{
+    color: #fff;
+    padding: 10px 0;
+    background: orangered;
+}
+
+.gold-card p{
+    padding: 10px 40px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 992px) {
     .card-overall-section {
         flex-direction: column;
