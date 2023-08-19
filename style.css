@@ -146,12 +146,165 @@ span{
 .gold-card p{
     padding: 10px 40px;
     color: gray;
+    
+}
+
+.package-card button{
+    background: #5000CA;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px 30px;
+    font-weight: 500;
+}
+
+.package-card .withdraw{
+    border: 1px solid rgb(236, 230, 230);
+    width: 80%;
+    margin-left: 10%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.package-card .withdraw-parent{
+    border: 1px solid rgb(236, 230, 230);
+    width: 80%;
+    margin-left: 10%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 132px;
+}
+
+.withdraw-parent .parent-btn{
+    margin-top: 20px;
 }
 
 
+.package-card .withdraw-gold{
+    border: 1px solid rgb(236, 230, 230);
+    width: 80%;
+    margin-left: 10%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 155px;
+    
+}
+
+.withdraw-gold .gold-btn{
+    margin-top: 20px;
+
+}
+
+@media screen and (max-width: 992px){
+
+    .package-card{
+        flex-direction: column;
+    }
+    .student-card{
+        margin-bottom: 50px;
+    }
+
+    .parent-card{
+        margin-bottom: 50px;
+    }
+    .package-card .withdraw-parent{
+        padding-bottom: 20px;
+    }
+    .package-card .withdraw-gold{
+        padding-bottom: 20px;
+    }
+    .gold-btn{
+        width: 100%;
+    }
+    .parent-btn{
+        width: 100%;
+    }
+    .student-btn{
+        width: 100%;
+    }
+
+}
+
+.quoteup{
+    padding-bottom: 80px;
+    
+}
+
+.quote-writeup h1{
+    font-size:30px;
+    color: rgb(47, 2, 47);
+    margin-top: 20px;
+}
 
 
+.right-arrow{
+    background: #fff;
+    border: 1px solid #fff;
+    width: 10%;
+    padding: 6px 12px 6px 10px;
+    margin-top: 30px;
 
+}
+
+.left-arrow{
+    background: #fff;
+    border: 1px solid #fff;
+    width: 10%;
+    padding: 6px 14px 6px 10px;
+    margin-left: 50px;
+    margin-top: -38px;
+}
+
+.what-cus{
+    background: rgba(140, 228, 214, 0.06);
+}
+
+.sam-page{
+    display: flex;
+    gap: 50px;
+}
+
+.sam-page .sam-p1{
+    padding: 10px 13px;
+    font-size: 15px;
+    background: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: gray;
+
+}
+
+.sam-page .sam-p2{
+    padding: 10px 13px;
+    font-size: 15px;
+    background: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: gray;
+    
+}
+
+@media screen and (max-width: 992px){
+    .sam-page{
+        flex-direction: column;
+        margin-bottom: 160px;
+    }
+
+    .quote-writeup{
+        margin-bottom: 30px;
+    }
+
+   
+}
+
+
+.svg-sec-two-buttom{
+    margin-bottom: -280px;
+}
 
 
 
@@ -228,6 +381,7 @@ span{
 
 .myfooter{
     background: #2a0168;
+    padding: 80px 0;
 }
 
 .footme p{
@@ -260,7 +414,7 @@ font-size: 10px;
     padding: 10px 80px;
     position:absolute;
     width: 970px;
-    top: -33%;
+    top: -10%;
     left: 8px;
 }
 @media (max-width: 780px) {
@@ -269,7 +423,7 @@ font-size: 10px;
         overflow-x: hidden !important;
     }
     .box {
-        top: -23%;
+        top: -3%;
         left: -130px;
         width: 95%;
     }
