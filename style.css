@@ -219,14 +219,18 @@ span{
     .package-card .withdraw-gold{
         padding-bottom: 20px;
     }
-    .gold-btn{
+    .gold-btn, .parent-btn, .student-btn{
         width: 100%;
     }
-    .parent-btn{
+   
+    .btn-sign{
         width: 100%;
+        margin-top: 20px;
     }
-    .student-btn{
-        width: 100%;
+
+    .btn-log{
+        background: #fff;
+
     }
 
 }
@@ -249,6 +253,7 @@ span{
     width: 10%;
     padding: 6px 12px 6px 10px;
     margin-top: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
 
@@ -259,6 +264,7 @@ span{
     padding: 6px 14px 6px 10px;
     margin-left: 50px;
     margin-top: -38px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .what-cus{
@@ -270,8 +276,8 @@ span{
     gap: 50px;
 }
 
-.sam-page .sam-p1{
-    padding: 10px 13px;
+.sam-page .sam-p1, .sam-page .sam-p2{
+    padding: 10px 12px;
     font-size: 15px;
     background: #fff;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -279,14 +285,30 @@ span{
 
 }
 
-.sam-page .sam-p2{
-    padding: 10px 13px;
-    font-size: 15px;
-    background: #fff;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    color: gray;
-    
+/* .sam-p1 p{
+    padding-bottom: 5px;
+} */
+
+
+
+.samuel-tola1, .samuel-tola2 {
+    padding-left: 30%;
+    /* padding-top: 10px; */
+    display: flex;
+    width: 95%;
+    border: 1px solid rgb(236, 230, 230);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    gap: 10px;
+
 }
+
+.samuel-tola1 p,.samuel-tola2 p {
+    padding-top: 10px;
+    font-weight: 500;
+}
+
 
 @media screen and (max-width: 992px){
     .sam-page{
@@ -451,6 +473,65 @@ font-size: 10px;
     margin-top: 10px;
 }
 
+@media screen and (min-width: 800px) and (max-width: 1100px){
+    .box{
+        width: 90%;
+        left: -100px;
+    }
 
+    .aboutus h5{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .aboutus p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .sam-page .sam-p2{
+        font-size: 16px;
+    }
 
+    .sam-page .sam-p1{
+        font-size: 16px;
+    }
+    .footme p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    .box{
+        width: 85%;
+    
+    }
+
+    .svg-sec-two-buttom{
+        margin-bottom: -20%;
+    }
+
+    .left-arrow{
+        margin-left: 100px;
+        width: 10%;
+        padding: 6px 20px 6px 40px;
+    }
+
+    .aboutus h5{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .aboutus p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .sam-page .sam-p2{
+        font-size: 20px;
+    }
+
+    .sam-page .sam-p1{
+        font-size: 20px;
+    }
+    .footme p{
+        font-size: 20px;
+    }
+}
 
